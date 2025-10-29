@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSMTP – Regenerative by Design</title>
+
+  <!-- Web Awesome Kit -->
+  <script src="https://kit.webawesome.com/47aac8be491c4cc5.js" crossorigin="anonymous"></script>
+
+  <style>
+    :root {
+      --primary: #005eb8;
+      --light: #f8f9fa;
+      --dark: #212529;
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      background-color: var(--light);
+      color: var(--dark);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      margin: 0 0 0.5rem 0;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin: 0;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .wa-card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      padding: 1.5rem;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .wa-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .wa-card i {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+
+    .wa-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .wa-btn:hover {
+      background: #004a91;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #777;
+      background: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><i class="wa wa-leaf"></i> GSMTP</h1>
+    <p>Growth Strategy • Marketing • Traffic • Performance</p>
+  </header>
+
+  <main>
+    <div class="wa-card">
+      <i class="fa-solid fa-seedling"></i>
+      <h3>Growth Strategy</h3>
+      <p>Data-driven plans to scale your business sustainably.</p>
+      <button class="wa-btn">
+        <i class="fa-solid fa-arrow-right"></i> Learn More
+      </button>
+    </div>
+
+    <div class="wa-card">
+      <i class="wa wa-bullhorn"></i>
+      <h3>Marketing</h3>
+      <p>Innovative campaigns powered by analytics and creativity.</p>
+      <button class="wa-btn">
+        <i class="fa-solid fa-chart-line"></i> See Insights
+      </button>
+    </div>
+
+    <div class="wa-card">
+      <i class="fa-solid fa-network-wired"></i>
+      <h3>Traffic</h3>
+      <p>Optimize your reach and performance across every channel.</p>
+      <button class="wa-btn">
+        <i class="wa wa-rocket"></i> Boost Now
+      </button>
+    </div>
+
+    <div class="wa-card">
+      <i class="fa-solid fa-gauge-high"></i>
+      <h3>Performance</h3>
+      <p>Continuous monitoring and refinement to maximize ROI.</p>
+      <button class="wa-btn">
+        <i class="fa-solid fa-circle-check"></i> Improve
+      </button>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 GSMTP – Regenerative by Design
+  </footer>
+</body>
+</html>
